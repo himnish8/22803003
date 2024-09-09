@@ -1,0 +1,32 @@
+class movie:
+  def _init_(self):
+   self,movie=[]; 
+  def addmovie(dict,movie):
+    name=("enter the name of movie")
+    movie_id=("enter the id of movie")
+    price=("enter the price of the movie")
+    
+    if(movie>0):
+        print("movies are",movie)
+    else:
+        print("no movies available")
+class customer:
+  def _init_(self);
+   self,customer=[];
+  def details(dict,customer): 
+    name=("enter the name of movie")
+    customer_id=("enter the customer id of movie")
+    movie_rented_id=("enter the id of the movie rented")
+class return_movie:
+  def _init_(self);
+   self,return_movie=[];
+  def return_movie(dict,return_movie):
+    name=("enter the name of movie")
+    customer_id=("enter the customer id of movie")
+    movie_rented_id=("enter the id of the movie rented")
+    price=("enter the price of the movie")
+    
+movie.add("ddlj",8,40)
+movie.add("krrish",8,20)
+movie.add("dhoom",8,30)
+movie.add("stree",8,90)
