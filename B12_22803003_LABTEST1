@@ -1,0 +1,37 @@
+import numpy as np
+import scipy as sp
+import matplotlib.pyplot as plt
+
+#Integrating
+pollution_data_hour_1= np.array([100,120,90,70,80,90,120,60,80,70,50,110])
+pollution_data_hour_2= np.array([80,150,140,190,200,170,140,160,130,80,60,111])
+pollution_data_hour_3= np.array([70,190,140,170,188,160,190,120,112,117,112,121])
+pollution_data_hour_4= np.array([60,110,140,180,120,150,170,130,120,110,111,90])
+pollution_data_hour_5= np.array([120,200,200,200,200,200,200,200,200,200,200,180])
+
+#Average
+average_1_hour=np.average(pollution_data_hour_1)
+print(average_1_hour)
+
+average_2_hour=np.average(pollution_data_hour_2)
+print(average_2_hour)
+
+average_3_hour=np.average(pollution_data_hour_3)
+print(average_3_hour)
+
+average_4_hour=np.average(pollution_data_hour_4)
+print(average_4_hour)
+
+average_5_hour=np.average(pollution_data_hour_5)
+print(average_5_hour)
+
+#Plotting
+plt.title("Hourly Average Data")
+plt.xlabel("Hour")
+plt.ylabel("PM")
+plt.grid()
+plt.plot(pollution_data_hour_1)
+plt.plot(pollution_data_hour_2)
+plt.plot(pollution_data_hour_3)
+plt.plot(pollution_data_hour_4)
+plt.plot(pollution_data_hour_5)
