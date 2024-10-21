@@ -1,0 +1,18 @@
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+from pymongo import MongoClient
+
+url = "https://saras.cbse.gov.in/SARAS/AffiliatedList/ListOfSchdirReport"
+data-request.get(url)
+soup = BeautifulSoup(data.text, 'html.parser')
+data-soup.find_all("td")
+print(data)
+da=[]
+for d in data:
+    col-d.find_all("td")
+    print(col)
+
+
+for (school name ="AMITY INTETNATIONAL SCHOOL"):
+    print(Head/Principal Name)
